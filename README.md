@@ -1,142 +1,69 @@
-# 🔐 PassHero - Password Manager
+# 🔐 PassHero
 
-PassHero is a full-stack password manager built using **React, Node.js, Express.js, and MongoDB**. It allows users to securely store, manage, edit, and delete their website credentials through a clean and responsive interface.
+> **🚀 A secure password manager built with React, Node.js, Express, and MongoDB.**
 
----
+**PassHero** is a password management application that allows users to securely store, view, edit, and delete their passwords in one place.
 
-## 🚀 Features
+The project combines a React frontend with a Node.js/Express backend and MongoDB database for persistent password storage.
 
-- ➕ Add new passwords
-- ✏️ Edit saved credentials
-- 🗑️ Delete passwords
-- 👁️ Show/Hide password visibility
-- 📋 Copy username or password with one click
-- 🔔 Toast notifications for user actions
-- 📱 Responsive user interface
-- 💾 MongoDB database integration
-- ⚡ REST API built with Express.js
+## 📋 Features
 
----
+* 🔐 Password Management
+* 💾 Store Passwords in MongoDB
+* 👤 Username & Website Storage
+* 👁️ Show / Hide Passwords
+* ✏️ Edit Saved Passwords
+* 🗑️ Delete Passwords
+* 📋 Copy Passwords
+* 🔔 Toast Notifications
+* 🌐 REST API Backend
+* 📱 Responsive Design
 
 ## 🛠️ Tech Stack
 
-### Frontend
-- React
-- Tailwind CSS
-- React Toastify
-- UUID
+* **Frontend:** React, Tailwind CSS
+* **Backend:** Node.js, Express.js
+* **Database:** MongoDB
+* **API:** REST API
+* **Notifications:** React Toastify
 
-### Backend
-- Node.js
-- Express.js
-- MongoDB
-- dotenv
-- body-parser
-- CORS
+## 📌 Development Progress
 
----
+* ✅ Project setup
+* ✅ React frontend
+* ✅ Tailwind CSS integration
+* ✅ Node.js & Express backend
+* ✅ MongoDB integration
+* ✅ Save passwords
+* ✅ Fetch saved passwords
+* ✅ Delete passwords
+* ✅ Edit passwords
+* ✅ Show / hide passwords
+* ✅ Copy password functionality
+* ✅ Toast notifications
+* 🚧 UI/UX improvements
+* ⏳ Deployment
 
-## 📂 Project Structure
+## 🔮 Future Updates
 
-```
-PassHero-Password-Manager
-│
-├── backend
-│   ├── server.js
-│   ├── package.json
-│   ├── .env.example
-│   └── ...
-│
-├── src
-│   ├── components
-│   ├── App.jsx
-│   └── ...
-│
-├── public
-├── package.json
-└── README.md
-```
+The core functionality of PassHero is complete, but development can continue with additional improvements and features such as:
 
----
+* 🚀 Password generation
+* 🔒 Improved security & encryption
+* 🔑 User authentication
+* ☁️ Cloud database support
+* 📱 Further responsive improvements
+* 🎨 UI/UX enhancements
+* ⚡ Performance optimizations
+* 🌐 Production deployment
 
-## ⚙️ Installation
+## ⭐ Support the Project
 
-### 1. Clone the repository
+If you like **PassHero** or find it useful, consider **starring ⭐ the repository**.
 
-```bash
-git clone https://github.com/void-0019/PassHero-Password-Manager.git
-```
-
-### 2. Install frontend dependencies
-
-```bash
-npm install
-```
-
-### 3. Install backend dependencies
-
-```bash
-cd backend
-npm install
-```
-
-### 4. Configure Environment Variables
-
-Create a `.env` file inside the `backend` folder.
-
-Example:
-
-```env
-MONGO_URI=your_mongodb_connection_string
-PORT=3000
-```
-
-### 5. Start Backend
-
-```bash
-cd backend
-npm start
-```
-
-### 6. Start Frontend
-
-```bash
-npm run dev
-```
+More features and improvements can be added as the project continues to evolve.
 
 ---
 
-
-## 📌 Future Improvements
-
-- User Authentication
-- Password Encryption
-- Password Strength Indicator
-- Search & Filter
-- Categories
-- Dark/Light Theme
-- Deploy on Render/Vercel
-- Generate Strong Password
-- Export/Import Passwords
-
----
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome.
-
-Feel free to fork this repository and submit a pull request.
-
----
-
-## 📄 License
-
-This project is open-source and available under the MIT License.
-
----
-
-## 👨‍💻 Author
-
-**Rishabh Singh**
-
-GitHub: https://github.com/void-0019
+**Status:** 🚀 Core Version Complete — Active Development
+>>>>>>> ed33d04 (docs: updated README)
