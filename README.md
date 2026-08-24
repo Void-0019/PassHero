@@ -66,4 +66,3 @@ More features and improvements can be added as the project continues to evolve.
 ---
 
 **Status:** 🚀 Core Version Complete — Active Development
->>>>>>> ed33d04 (docs: updated README)
