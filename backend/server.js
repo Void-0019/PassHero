@@ -29,7 +29,7 @@ app.get('/', async (req, res) => {
 app.post('/', async (req, res) => {
   const db = client.db(dbName);
   const collection = db.collection('passwords');
-  const findResult = await collection.insertOne(password);
+  const findResult = await collection.insertOne(req.body);
   res.send({success: true, result: findResult})
 })
 
